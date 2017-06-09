@@ -1,17 +1,28 @@
 #include <SoftwareSerial.h>
-int var='s';
-int der=2;
-int izq=3;
-int arr=4;
-int aba=5;
+///variables para giro dereha
+  int der=2;
+  int der2=3;
+///variables giro izquierda
+  int izq=4;
+  int izq2=5;
+/////variables arriba
+  int arr=6;
+  int arr2=7
+/////variables abajo
+  int aba=8;
+  int aba2=9;
 
 void setup()
   { 
     Serial.begin(9600); 
     pinMode(der,OUTPUT);
+    pinMode(der2,OUTPUT);
     pinMode(izq,OUTPUT);
+    pinMode(izq2,OUTPUT);
     pinMode(arr,OUTPUT);
+    pinMode(arr2,OUTPUT);
     pinMode(aba,OUTPUT);
+    pinMode(aba2,OUTPUT);
     pinMode(13,OUTPUT);
     
   }
