@@ -1,4 +1,4 @@
-//#include <SoftwareSerial.h>
+#include <SoftwareSerial.h>
   int var='s';
 ///variables para giro dereha
   int der=2;
@@ -32,6 +32,7 @@ void loop()
   {  
       if (Serial.available()>0){
              var=Serial.read();
+             Serial.write(var);
           }
 
       switch(var){
