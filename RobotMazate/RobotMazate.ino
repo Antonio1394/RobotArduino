@@ -1,4 +1,4 @@
-//#include <SoftwareSerial.h>
+#include <SoftwareSerial.h>
   int var='s';
 ///variables para giro dereha
   int der=2;
